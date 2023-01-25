@@ -33,4 +33,91 @@
     background-color: red;
     /* test */
 }
+/* /navbar */
 
+
+/* main */
+#row-primary{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 110px;
+}
+
+.card{
+    position: relative;
+    height: 400px;
+    width: 30%;
+    background-color: green;
+}
+
+#row-secondary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-primary{
+    height: 100%;
+    width: 100%;
+}
+
+.like-btn{
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    font-size: 1.4em;
+    padding: 0.5em;
+    background-color: white;
+}
+
+.sales-block{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 0.2em
+}
+
+.green-block{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    background-color: green;
+    color: white;
+    padding: 0.2em;
+}
+
+.img-secondary{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.card:hover .img-secondary{
+    opacity: 1;
+}
+
+.price-article{
+    display: inline-block;
+    color: red;
+    margin-right: 0.5em;
+}
+
+
+.price-article2{
+    display: inline-block;
+    text-decoration-line: line-through;
+}
+
+#green-block2{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: green;
+    color: white;
+    padding: 0.2em;
+}
