@@ -1,0 +1,36 @@
+.container-centered{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* navbar */
+#navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    background-color: green;
+    /* test */
+}
+
+#navbar-inner #nav-link{
+    height: 1.5em;
+    background-color: red;
+    /* test */
+}
+
+#navbar-inner #nav-logo{
+    width: 150px;
+    height: 2em;
+    background-color: red;
+    /* test */
+}
+
+#navbar-inner #nav-shopping-cart{
+    width: 100px;
+    height: 1.5em;
+    background-color: red;
+    /* test */
+}
+
